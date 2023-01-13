@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import * as cli from './cli.js';
+import { userNameFunc } from './cli.js';
 
 const showGreeting = () => {
   // Внутри тела отступ 2 пробела для удобства чтения
@@ -10,4 +10,4 @@ const showGreeting = () => {
 
 // Вызов функции
 showGreeting();
-cli.userNameFunc();
+userNameFunc();
