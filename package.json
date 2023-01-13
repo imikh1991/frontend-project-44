@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "name": "@hexlet/code",
+  "description": "[![Actions Status](https://github.com/imikh1991/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/imikh1991/frontend-project-44/actions)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imikh1991/frontend-project-44.git"
+  },
+  "keywords": [
+    "myproject2022"
+  ],
+  "author": "Ilya Mikhaylyukov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imikh1991/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/imikh1991/frontend-project-44#readme"
+}
