@@ -10,4 +10,4 @@ const showGreeting = () => {
 
 // Вызов функции
 showGreeting();
-cli.userName(); 
+cli.userNameFunc();
