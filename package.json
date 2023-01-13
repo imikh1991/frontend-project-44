@@ -1,17 +1,16 @@
 {
   "dependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "readline-sync": "^1.4.10"
   },
   "name": "@hexlet/code",
   "description": "[![Actions Status](https://github.com/imikh1991/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/imikh1991/frontend-project-44/actions)",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "brain-games.js",
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
