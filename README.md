@@ -5,3 +5,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/9f4939d28b8a90d2c01b/maintainability)](https://codeclimate.com/github/imikh1991/frontend-project-44/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/9f4939d28b8a90d2c01b/test_coverage)](https://codeclimate.com/github/imikh1991/frontend-project-44/test_coverage)
+
+
+Test 
+https://asciinema.org/a/1nLWtoFC6LaTjbmi29rp5PX5r

@@ -8,7 +8,7 @@ const myGameEven = () => {
   console.log('--------🤖Welcome to the GAME BRAIN-EVEN🤖-----------------');
   console.log('Answer "yes" if the number is even, otherwise answer "no". ');
   console.log('-----------------🤖GAME BRAIN-EVEN🤖----------------------');
-  // базовая логика играем в три раунда - спрашиваем пользователя 
+  // базовая логика играем в три раунда - спрашиваем пользователя
   for (let i = 1; i <= 3; i += 1) {
     const roundGame = i;
     console.log(`Round = ${roundGame}`);
