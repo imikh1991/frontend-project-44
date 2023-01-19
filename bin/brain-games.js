@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { userNameFunc } from './cli.js';
+// import userNameFunc from './cli.js';
+import myGameEven from './brain-even.js';
 
 const showGreeting = () => {
   // Внутри тела отступ 2 пробела для удобства чтения
@@ -9,5 +10,6 @@ const showGreeting = () => {
 };
 
 // Вызов функции
-showGreeting();
-userNameFunc();
+// showGreeting();
+// userNameFunc();
+myGameEven();
