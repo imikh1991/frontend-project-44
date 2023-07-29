@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // calculator
 import readlineSync from 'readline-sync';
 

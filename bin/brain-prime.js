@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // prime number
 import readlineSync from 'readline-sync';
 

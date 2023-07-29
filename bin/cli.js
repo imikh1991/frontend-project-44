@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // Wait for user's response.
 import readlineSync from 'readline-sync';
 

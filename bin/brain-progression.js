@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // progression with missing item hidden by '..'
 import readlineSync from 'readline-sync';
 

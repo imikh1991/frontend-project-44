@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // greatest common divisor
 import readlineSync from 'readline-sync';
 

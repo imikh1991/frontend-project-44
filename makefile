@@ -1,11 +1,23 @@
 install: install-deps
 	npx simple-git-hooks
 
+brain-calc:
+	bin/brain-calc.js 10
+
+brain-even:
+	bin/brain-even.js 
+
 brain-games:
 	bin/brain-games.js 10
 
 brain-gcd: 
     bin/brain-gcd.js 10
+
+brain-prime: 
+    bin/brain-prime.js 10
+
+brain-progression: 
+    bin/brain-progression.js 10
 
 install-deps:
 	npm ci
