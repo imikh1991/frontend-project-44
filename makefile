@@ -1,7 +1,7 @@
 install: install-deps
 	npx simple-git-hooks
 
-run:
+brain-games:
 	bin/brain-games.js 10
 
 install-deps:
