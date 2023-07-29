@@ -10,7 +10,7 @@ import myGamePrime from './brain-prime.js';
 // import quadraticEquations from './quadraticEquations.js';
 // const showGreeting = () => {
 // Внутри тела отступ 2 пробела для удобства чтения
-const text = 'Welcome- Choose one game!';
+const text = 'Welcome to the Brain Games!';
 console.log(text);
 // };
 
@@ -36,7 +36,7 @@ switch (userAnswer) {
     myGamePrime();
     break;
   default:
-    console.log('You must choose one game - try again!');
+    // console.log('You must choose one game - try again!');
 }
 
 // (задать вопрос, получить ответ, сравнить ответ и т.д.).
