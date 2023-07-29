@@ -1,17 +1,22 @@
-// calculator
+// prime number
 import readlineSync from 'readline-sync';
 
-const myGameEven = () => {
+const myGamePrime = () => {
   const getRandomNumber = (param) => Math.floor(Math.random() * param);
 
+  const isPrime = (num) => {
+    if (num <= 1) return false;
+    for (let i = 2, s = Math.sqrt(num); i <= s; i += 1) {
+      if (num % i === 0) return false;
+    }
+    return num > 1;
+  };
+
   const askQuestion = () => {
-    const expression = getRandomNumber(10);
-    // проверка четности числа
-    const isEven = (number) => (number % 2 === 0);
+    const expression = getRandomNumber(100);
+    const correctAnswer = isPrime(expression);
 
-    const correctAnswer = isEven(expression);
     const userAnswer = readlineSync.question(`Question: ${expression}\nYour answer: `).toLowerCase();
-
     if ((userAnswer === 'yes' && correctAnswer) || (userAnswer === 'no' && !correctAnswer)) {
       console.log('Correct!');
       return true;
@@ -22,8 +27,8 @@ const myGameEven = () => {
 
   const playGame = () => {
     let score = 0;
-    console.log('-----------------------🤖GAME EVEN🤖----------------------------');
-    console.log('-Answer "yes" if the number is even, otherwise answer "no".----');
+    console.log('----------------------🤖GAME PRIME🤖----------------------------');
+    console.log('-Answer "yes" if given number is prime. Otherwise answer "no".-');
     for (let i = 0; i < 3; i += 1) {
       if (askQuestion()) {
         score += 1;
@@ -35,4 +40,4 @@ const myGameEven = () => {
   playGame();
 };
 
-export default myGameEven;
+export default myGamePrime;

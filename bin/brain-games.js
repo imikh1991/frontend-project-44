@@ -4,6 +4,9 @@
 import readlineSync from 'readline-sync';
 import myGameEven from './brain-even.js';
 import myGameCalc from './brain-calc.js';
+import myGameGsd from './brain-gcd.js';
+import myGameProgress from './brain-progression.js';
+import myGamePrime from './brain-prime.js';
 // import quadraticEquations from './quadraticEquations.js';
 // const showGreeting = () => {
 // Внутри тела отступ 2 пробела для удобства чтения
@@ -22,6 +25,15 @@ switch (userAnswer) {
     break;
   case '2':
     myGameCalc();
+    break;
+  case '3':
+    myGameGsd();
+    break;
+  case '4':
+    myGameProgress();
+    break;
+  case '5':
+    myGamePrime();
     break;
   default:
     console.log('You must choose one game - try again!');
