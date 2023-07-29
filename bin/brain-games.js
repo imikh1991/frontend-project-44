@@ -1,24 +1,29 @@
 #!/usr/bin/env node
-
+import userNameFunc from './cli.js';
 // import userNameFunc from './cli.js';
-import readlineSync from 'readline-sync';
-import myGameEven from './brain-even.js';
-import myGameCalc from './brain-calc.js';
-import myGameGsd from './brain-gcd.js';
-import myGameProgress from './brain-progression.js';
-import myGamePrime from './brain-prime.js';
+// import readlineSync from 'readline-sync';
+// import myGameEven from './brain-even.js';
+// import myGameCalc from './brain-calc.js';
+// import myGameGsd from './brain-gcd.js';
+// import myGameProgress from './brain-progression.js';
+// import myGamePrime from './brain-prime.js';
 // import quadraticEquations from './quadraticEquations.js';
-// const showGreeting = () => {
-// Внутри тела отступ 2 пробела для удобства чтения
-const text = 'Welcome to the Brain Games!';
-console.log(text);
+
+const brainGames = () => {
+  const text = 'Welcome to the Brain Games!';
+  console.log(text);
+  userNameFunc();
+};
+brainGames();
+export default brainGames;
 // };
 
 // Вызов функции
 // showGreeting();
 // userNameFunc();
-const userAnswer = readlineSync.question('Game:');
-
+// const userAnswer = readlineSync.question('Game:');
+// перепишем логику под автотесты
+/*
 switch (userAnswer) {
   case '1':
     myGameEven();
@@ -39,6 +44,7 @@ switch (userAnswer) {
     // console.log('You must choose one game - try again!');
 }
 
+*/
 // (задать вопрос, получить ответ, сравнить ответ и т.д.).
 //  Эту логику можно вынести в одно место и переиспользовать
 // внутри конкретных игр для устранения дублирования кода.

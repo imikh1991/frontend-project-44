@@ -23,7 +23,7 @@ const myGameEven = () => {
   const playGame = () => {
     let score = 0;
     console.log('-----------------------🤖GAME EVEN🤖----------------------------');
-    console.log('-Answer "yes" if the number is even, otherwise answer "no".----');
+    console.log('--Answer "yes" if the number is even, otherwise answer "no".---');
     for (let i = 0; i < 3; i += 1) {
       if (askQuestion()) {
         score += 1;

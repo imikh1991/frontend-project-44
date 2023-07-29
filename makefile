@@ -4,6 +4,9 @@ install: install-deps
 brain-games:
 	bin/brain-games.js 10
 
+brain-gcd: 
+    bin/brain-gcd.js 10
+
 install-deps:
 	npm ci
 
