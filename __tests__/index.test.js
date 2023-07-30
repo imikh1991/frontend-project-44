@@ -1,3 +1,8 @@
+/**
+ * @vitest-environment jsdom
+ */
+import { describe, expect, it } from 'jest';
+
 const askQuestion = require('../src/games/calc.js');
 
 describe('askQuestion function', () => {
