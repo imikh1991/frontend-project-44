@@ -2,7 +2,7 @@ import { startGameProcess, roundsCount } from '../index.js';
 
 const getRandomNumber = (param) => Math.floor(Math.random() * param);
 
-const askQuestion = () => {
+export const askQuestion = () => {
   const gameQuestions = [];
   const correctGameAnswers = [];
   const gameRules = 'What is the result of the expression?';
